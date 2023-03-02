@@ -1,0 +1,56 @@
+////////////////////////////////
+/// LOGO
+.logo {
+  height: 3.25rem;
+}
+
+////////////////////////////////
+/// SEARCH
+.search {
+  &__input {
+  }
+  &__button {
+  }
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+////////////////////////////////
+/// USER NAVIGATION
+.user-nav {
+  display: flex;
+  &__icon-box {
+    position: relative;
+
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+  &__notification {
+    background: var(--color-primary);
+    color: var(--color-white);
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+  }
+  &__user {
+  }
+  &__user-photo {
+    height: 3.75rem;
+    border-radius: 50%;
+  }
+  &__user-name {
+  }
+}
